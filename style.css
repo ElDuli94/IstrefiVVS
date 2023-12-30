@@ -37,3 +37,7 @@ body {
 .section__Prøv{
     background-color: #151515;
 }
+
+.card{
+    border-width: 0;
+}
