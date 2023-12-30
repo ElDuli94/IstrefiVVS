@@ -16,7 +16,7 @@ body {
 }
 
 .img__style{
-    border-radius: 5%;
+    border-radius: 2%;
     width: 40%;
     height: 40%;
     margin-left: 200px;
@@ -34,10 +34,75 @@ body {
     font-size: 50px;
 }   
 
-.section__Prøv{
-    background-color: #151515;
+.section_card_style{
+    background-color: white;
 }
 
-.card-body{
-    border-width: 0;
+.overskrift__cards{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.oversiktstekst__cards{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+}
+
+.card__overskrifttekst{
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: cadetblue;
+}
+
+.card__paragraftekst{
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button__registrerDeg{
+    background-color: cadetblue;
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+}
+
+.button__registrerDeg:hover {
+    background-color: #1D6359;
+    border: none;
+    color: white;
+    padding: 15px 50px;
+}
+
+.border_underButton{
+    border-bottom: 2px solid #1D6359;
+}
+
+.text_footer {
+    pointer-events: none;
+    cursor: text;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.øverst__footer{
+    background-color: #1D6359;
+}
+
+.nederst__footer{
+    background-color: #061629;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.opphavsrett{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
 }
