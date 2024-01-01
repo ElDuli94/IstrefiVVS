@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="ms-auto">
+        <a class="expand__icon" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+          <span class="material-symbols-outlined expand__icon_icon">menu</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <div class="row align-items-center">
+          <div class="col">
+            <img src="img/IMG_0432.JPG" alt="" class="profil_bilde">
+          </div>
+          <div class="col">
+            <h5 class="offcanvas-title sidebar__navn" id="offcanvasExampleLabel">Avdyl</h5>
+          </div>
+        </div>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="">
+          <a href="#">
+            <span class="material-symbols-outlined">grid_view</span>
+            <h3>Dasbboard</h3>
+          </a>
+        </div>
+        <div class="">
+          <a href="#">
+            <span class="material-symbols-outlined">description</span>
+            <h3>CV Builder</h3>
+          </a>
+        </div>
+        <div class="">
+          <a href="#">
+            <span class="material-symbols-outlined">description</span>
+            <h3>CV Builder</h3>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div>
+        <div class="øverst__footer">
+          <div class="container">
+          </div>
+        </div>
+        <div class="text-center nederst__footer">
+          <a class="text_footer" href="#">Istrefi<span class="text-warning"> .</span></a>
+          <h5 class="opphavsrett">Opphavsrett Istrefi AS &copy; 2024</h5>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

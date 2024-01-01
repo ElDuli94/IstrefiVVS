@@ -1,18 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Open+Sans:ital,wght@1,500&display=swap');
 
-
-
-body {
-    background-color: black;
+.navbar{
+    background-color: #FAF7EF;
 }
 
 .nav-link, .navbar-brand {
     font-family: 'Montserrat', sans-serif;
 }
 
+.nav-link:hover{
+    border-bottom: 2px solid #1D6359;
+}
+
 .section__style{
     margin-top: 100px;
     margin-bottom: 50px;
+}
+
+.Pålogging_knapp{
+    background-color: cadetblue;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Pålogging_knapp:hover {
+    background-color: #1D6359;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+}
+
+.LoggUt_knapp{
+    background-color: #B13C3B;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.LoggUt_knapp:hover {
+    background-color: #6B1D1D;
+    border: none;
+    color: white;
+    padding: 10px 15px;
 }
 
 .img__style{
@@ -35,7 +67,7 @@ body {
 }   
 
 .section_card_style{
-    background-color: white;
+    background-color: #FAF7EF;
 }
 
 .overskrift__cards{
@@ -105,4 +137,24 @@ body {
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
+}
+
+.expand__icon{
+    color: gray;
+}
+
+.expand__icon_icon{
+    font-size: 40px;
+}
+
+.profil_bilde{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.sidebar__navn{
+    font-family: 'Montserrat', sans-serif;
+    color:cadetblue;
+    font-size: 25px;
 }
